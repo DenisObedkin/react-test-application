@@ -30,7 +30,7 @@ export default function ToDoForm(props) {
         <input
           type="button"
           value="Cancel"
-          onClick={(e) => history.push('/')}
+          onClick={(e) => history.push('/todos')}
         />
         &nbsp;
       </Suspense>
